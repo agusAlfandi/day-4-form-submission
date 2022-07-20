@@ -22,7 +22,7 @@ function submitForm() {
   } else if (message == "") {
     alert("Opps message juga tidak boleh kosong");
   }
-  const emailReciver = "?";
+  const emailReciver = "agusalfandi8@gmail.com";
   const a = document.createElement("a");
 
   a.href = `mailto: ${emailReciver}?subject= ${subject}&body= Hello my name ${name}, ${subject}, ${message}, may phone number ${phone}`;
