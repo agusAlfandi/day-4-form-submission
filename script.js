@@ -12,15 +12,15 @@ function submitForm() {
   console.log(message);
 
   if (name == "") {
-    alert("Opps nama tidak boleh kosong");
+    return alert("Opps nama tidak boleh kosong");
   } else if (email == "") {
-    alert("Opps email juga tidak boleh kosong");
+    return alert("Opps email juga tidak boleh kosong");
   } else if (phone == "") {
-    alert("Opps phone juga tidak boleh kosong");
+    return alert("Opps phone juga tidak boleh kosong");
   } else if (subject == "") {
-    alert("Opps subject juga tidak boleh kosong");
+    return alert("Opps subject juga tidak boleh kosong");
   } else if (message == "") {
-    alert("Opps message juga tidak boleh kosong");
+    return alert("Opps message juga tidak boleh kosong");
   }
   const emailReciver = "agusalfandi8@gmail.com";
   const a = document.createElement("a");
